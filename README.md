@@ -1,30 +1,73 @@
-# React + TypeScript + Vite
+# Built With
+- React
+- Typescript
+- Firebase
+- Styled Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- Alert/Announcement banner
+  - Expands into modal if long notification
+- List of ice creams by categories
+  - Crossed out for out of stock
+  - 'New' text added to featured ice creams
+  - Filters out any that are marked to hide
+- Basic about page
+- Basic admin login page
+- Admin dashboard
+  - List of ice creams
+  - Add/Delete ice creams
+  - Mark ice creams as featured
+  - Mark ice creams as out of stock
+  - Option to hide ice creams
+  - Add/Delete announcements
+- Responsive design
 
-Currently, two official plugins are available:
+# Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Desktop
+<table>
+<tr>
+<th>Home</th>
+<th>Announcement Modal</th>
+<th>About</th>
+</tr>
+<tr>
+<td valign="top"><img src="image.png" alt="Home page" width="500"></td>
+<td valign="top"><img src="image-3.png" alt="Announcement Modal" width="500"></td>
+<td valign="top"><img src="image-1.png" alt="About page" width="500"></td>
+</tr>
+<tr>
+<th>Admin Login</th>
+<th>Admin Dashboard</th>
+</tr>
+<tr>
+<td valign="top"><img src="image-4.png" alt="Admin Login" width="500"></td>
+<td valign="top"><img src="image-5.png" alt="Admin Dashboard" width="500"></td>
+</tr>
+</table>
 
-## Expanding the ESLint configuration
+## Mobile
+<table>
+<tr>
+<th>Home</th>
+<th>Announcement Modal</th>
+<th>About</th>
+</tr>
+<tr>
+<td valign="top"><img src="image-11.png" alt="Mobile Home page" width="300"></td>
+<td valign="top"><img src="image-10.png" alt="Mobile Announcement Modal" width="300"></td>
+<td valign="top"><img src="image-7.png" alt="Mobile About page" width="300"></td>
+</tr>
+<tr>
+<th>Admin Login</th>
+<th>Admin Dashboard</th>
+</tr>
+<tr>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<td valign="top"><img src="image-8.png" alt="Mobile Admin Login" width="300"></td>
+<td valign="top"><img src="image-6.png" alt="Mobile Admin Dashboard" width="300"></td>
+</tr>
+</table>
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Alt text](image-11.png)![Alt text](image-11.png)
